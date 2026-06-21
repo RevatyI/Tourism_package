@@ -1,7 +1,7 @@
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 from huggingface_hub import HfApi, create_repo
 import os
-os.environ["HF_TOKEN"] = userdata.get('HF_TOKEN')
+#os.environ["HF_TOKEN"] = userdata.get('HF_TOKEN')
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
 
